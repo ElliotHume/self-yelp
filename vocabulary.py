@@ -1,4 +1,13 @@
-'''Vocabulary'''
+'''
+Vocabulary
+
+CODE PROVIDED BY:
+    Colin Bernet
+    https://thedatafrog.com/en/text-preprocessing-machine-learning-yelp/?fbclid=IwAR3Er-ltRjwtk4fiWXSc60_jmWs6vpJBRQWrn0vyzMmPtophLFHR1DErJkw
+
+Modified by Elliot Hume\
+
+'''
 import pickle
 import pprint
 class Vocabulary(object): 
