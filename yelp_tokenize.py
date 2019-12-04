@@ -1,4 +1,7 @@
 '''Tokenize a JSON lines dataset with nltk
+CODE PROVIDED BY:
+    Colin Bernet
+    https://thedatafrog.com/en/text-preprocessing-machine-learning-yelp/?fbclid=IwAR3Er-ltRjwtk4fiWXSc60_jmWs6vpJBRQWrn0vyzMmPtophLFHR1DErJkw
 '''
 import os 
 import json
@@ -34,39 +37,6 @@ def process_file(fname):
     ifile.close()
     ofile.close()
 
-
-# def parse_args():
-#     '''Parse command line arguments.
-#     See base.setopts for more information
-#     '''
-#     from optparse import OptionParser        
-#     from base import setopts
-#     usage = "usage: %prog [options] <file_pattern>"
-#     parser = OptionParser(usage=usage)    
-#     setopts(parser)
-#     (options, args) = parser.parse_args()    
-#     if len(args)!=1:
-#         parser.print_usage()
-#         sys.exit(1)
-#     # pattern should match the files you want to process, 
-#     # e.g. 'xa?'
-#     pattern = args[0]
-#     return options, pattern
-# if __name__ == '__main__':
-#     import os
-#     import glob
-#     import parallelize
-#     from multiprocessing import Pool
-    
-#     options, pattern = parse_args()
-#     olddir = os.getcwd()    
-#     os.chdir(options.datadir)
-#     fnames = glob.glob(pattern)
-       
-#     nprocesses = len(fnames) if options.parallel else None
-#     results = parallelize.run(process_file, fnames, nprocesses, options)
-            
-#     os.chdir(olddir) 
 
 fname = 'Seafood_reviews.json'
 results = process_file(fname)
