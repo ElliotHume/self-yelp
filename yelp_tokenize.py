@@ -1,7 +1,11 @@
-'''Tokenize a JSON lines dataset with nltk
-CODE PROVIDED BY:
+'''
+Tokenize a JSON lines dataset with nltk
+
+USING CODE PROVIDED BY:
     Colin Bernet
     https://thedatafrog.com/en/text-preprocessing-machine-learning-yelp/?fbclid=IwAR3Er-ltRjwtk4fiWXSc60_jmWs6vpJBRQWrn0vyzMmPtophLFHR1DErJkw
+
+Modified by Elliot Hume
 '''
 import os 
 import json
