@@ -1,2 +1,2 @@
 # self-yelp
-Yelp review writing ANN
+Yelp review writing Artificial Neural Network
